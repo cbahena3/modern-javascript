@@ -1,5 +1,5 @@
 var moment = require('moment');
-import { sqrt } from 'mathjs'
+import { sqrt } from 'mathjs';
 
 /* global moment */
 console.log("Hello, world!");
@@ -14,7 +14,8 @@ let date = moment().format('MMMM Do YYYY, h:mm:ss a');
 console.log(date);
 
 //math problem
-console.log(sqrt(-4).toString()) // 2i
+console.log(sqrt(-4).toString()); // 2i
 
 let myName = "Cristian Bahena";
 console.log(`Hello ${myName}`);
+console.log(`Hello again ${myName}!!!!!!!!!!!!!!!!!!!`);
