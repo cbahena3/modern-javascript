@@ -16,7 +16,7 @@
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var mathjs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! mathjs */ \"./node_modules/mathjs/lib/esm/entry/pureFunctionsAny.generated.js\");\nvar moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\n\n\n/* global moment */\nconsole.log(\"Hello, world!\");\n\nlet datetime = moment().startOf(\"day\").fromNow();\nconsole.log(datetime);\n\nlet timeToday = moment().calendar();\nconsole.log(timeToday);\n\nlet date = moment().format('MMMM Do YYYY, h:mm:ss a');                    \nconsole.log(date);\n\n//math problem\nconsole.log((0,mathjs__WEBPACK_IMPORTED_MODULE_0__.sqrt)(-4).toString()) // 2i\n\n\n//# sourceURL=webpack://modern-javascript/./index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var mathjs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! mathjs */ \"./node_modules/mathjs/lib/esm/entry/pureFunctionsAny.generated.js\");\nvar moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\n\n\n/* global moment */\nconsole.log(\"Hello, world!\");\nvar datetime = moment().startOf(\"day\").fromNow();\nconsole.log(datetime);\nvar timeToday = moment().calendar();\nconsole.log(timeToday);\nvar date = moment().format('MMMM Do YYYY, h:mm:ss a');\nconsole.log(date);\n\n//math problem\nconsole.log((0,mathjs__WEBPACK_IMPORTED_MODULE_0__.sqrt)(-4).toString()); // 2i\n\nvar myName = \"Cristian Bahena\";\nconsole.log(\"Hello \".concat(myName));\n\n//# sourceURL=webpack://modern-javascript/./index.js?");
 
 /***/ }),
 

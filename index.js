@@ -15,3 +15,6 @@ console.log(date);
 
 //math problem
 console.log(sqrt(-4).toString()) // 2i
+
+let myName = "Cristian Bahena";
+console.log(`Hello ${myName}`);
